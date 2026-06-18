@@ -93,10 +93,13 @@ const Hero = () => {
           </h1>
           <div className="flex items-center justify-center gap-x-2 flex-wrap">
             <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-              Web Developer 🕸️ <span className="web:hidden xs:hidden">||</span>
+              Exploring AI & Data Science 🚀 <span className="web:hidden xs:hidden">||</span>
             </p>
             <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-              DSA Enthusiast 😎
+              DSA Enthusiast 🧠 <span className="web:hidden xs:hidden">||</span>
+            </p>
+             <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
+              Full-Stack Developer 💻 
             </p>
           </div>
         </motion.div>

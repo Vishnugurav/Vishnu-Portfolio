@@ -32,7 +32,7 @@ import LinksFillIcon from "remixicon-react/LinksFillIcon";
 export const aboutData = [
   {
     title: "Github Repos",
-    amount: 8,
+    amount: 13,
     icon: <GithubFillIcon />,
   },
   // {
@@ -42,12 +42,12 @@ export const aboutData = [
   // },
   {
     title: "LinkedIn Followers",
-    amount: 330,
+    amount: 1120,
     icon: <GroupLineIcon />,
   },
   {
     title: "LinkedIn Connections",
-    amount: 300,
+    amount: 1080,
     icon: <LinksFillIcon />,
   },
 ];
@@ -59,7 +59,7 @@ export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftSFillIcon />;
 
 export const aboutText =
-  "Yo, what’s up? I’m Vishnu! 🏐💻 A problem-solver at heart, passionate about DSA and algorithms to tackle real-world challenges. Right now, I’m learning backend development, adding it to my skillset along with frontend (HTML, CSS, JS, React). But more than just coding, I love exploring new concepts and constantly leveling up. Whether it’s cracking a tough algorithm or picking up a new tech skill, I’m always up for the challenge. Off-screen, you’ll find me on the volleyball court, bringing the same energy and strategy into the game. 🚀 Let’s build, learn, and grow! 🔥🚀";
+"Yo, I’m Vishnu! 🤖💻 Deep into AI, ML, and DSA—always exploring new tech and building cool stuff with code 🚀. From crafting full-stack web apps using React, Next.js, Node.js, and MongoDB to solving challenging algorithmic problems, I’m all about learning, building, and leveling up every day 🔥. I enjoy turning ideas into real-world projects, improving my problem-solving skills, and exploring how intelligent systems can shape the future. Full-stack vibes from frontend to backend ⚡ Off-code? You’ll probably find me on the volleyball court 🏐 bringing the same energy, focus, and strategy into the game. Let’s build something awesome together 🌐✨"
 // End of AboutMe icons
 
 // Skills
@@ -76,10 +76,10 @@ export const skillsData = [
     name: "JavaScript",
     icon: "/skills/js.png",
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: "/skills/ts.png",
-  // },
+  {
+    name: "TypeScript",
+    icon: "/skills/ts.png",
+  },
   {
     name: "VS Code",
     icon: "/skills/vscode.png",
@@ -108,14 +108,14 @@ export const skillsData = [
   //   name: "Figma",
   //   icon: "/skills/figma.png",
   // },
-  // {
-  //   name: "Cloudflare",
-  //   icon: "/skills/cloudflare.png",
-  // },
-  // {
-  //   name: "NodeJS",
-  //   icon: "/skills/nodejs.png",
-  // },
+  {
+    name: "Bash",
+    icon: "/skills/bash.png",
+  },
+  {
+    name: "NodeJS",
+    icon: "/skills/nodejs.png",
+  },
   {
     name: "MongoDB",
     icon: "/skills/mongodb.png",
@@ -154,7 +154,9 @@ export const myDates = [
   { section: "The Beginning of the Journey 🚀", date: "2021" },
   // { section: "Tech Arsenal: My Skillset🚀", date: "2021 - Present" },
   { section: "Building Blocks: My Diploma Journey 😎", date: "2021 - 2024" },
-  { section: "Building the Future: My BTech Story🔧", date: "2024 - Present" },
+  { section: "Building the Future: My BTech Story🔧", date: "2024 - Till 2027" },
+  { section: "Tech Arsenal: My Skillset🚀", date: "2025" },
+
 ];
 
 export const experienceData = [
@@ -198,38 +200,73 @@ export const experienceData = [
       "-Specialized in front-end frameworks like React",
     ],
   },
+
+  {
+    year: 5,
+    title:"AI, Data & Innovation 🚀🤖",
+    education: "COEP Technological University, Pune",
+    experience: [
+    "-Data Science Intern at Personifwy, working on Credit Exploratory Data Analysis (EDA).",
+    "-IBM SkillsBuild Intern in Generative AI & Cloud Computing.",
+    "-Exploring AI, Machine Learning, Data Science, and intelligent systems.",
+    "-Built SafeHer using Next.js, MongoDB, Tailwind CSS, and Firebase.",
+    "-Passionate about creating impactful solutions through data and technology.",
+    ],
+  },
 ];
 
 
 //project Section
 
-// export const projectsData = [
-//   {
-//     name: "TRACKIT-VCS",
-//     desc: "TRACKIT - A version control system built with a strong focus on data structures and algorithms, enabling efficient tracking, management, and retrieval of code changes for seamless collaboration.",
-//     url: "/projects/image-1.jpg",
-//     tech: ["DSA"],
-//   },
-//   {
-//     name: "Portfolio",
-//     desc: "A personal portfolio website showcasing my projects, skills, and experiences, designed with a sleek UI and smooth navigation for an engaging user experience.",
-//     url: "/projects/image-2.jpg",
-//     tech: ["All"],
-//   },
-  
-// ];
+export const projectsData = [
+  {
+    name: "Women Safety-SafeHer",
+    desc: "A full-stack women safety application designed to provide emergency assistance with SOS alerts, live location tracking, secure authentication, and emergency contact management using modern web technologies.",
+    url: "/projects/Women.png",
+    tech: ["ReactJS", "NodeJS"],
+  },
+  {
+    name: "Hate Speech Detection",
+    desc: "An AI/ML-based Hate Speech Detection system that identifies and classifies toxic or offensive text using Natural Language Processing and Machine Learning techniques with a clean and interactive interface.",
+    url: "/projects/HateSpeech.png",
+    tech: ["Python", "Machine Learning"],
+  },
 
-// export const projectsButton = [
-//   "All",
-//   "DSA",
-//   "HTML",
-//   "CSS",
-//   "JS",
-//   "ReactJS",
-//   "TailwindCSS",
-//   "NextJS",
-//   "FramerMotion",
-// ];
+  {
+    name: "SMS Spam Classifier",
+    desc: "An AI/ML-based SMS Spam Classification system that detects and filters spam messages using Natural Language Processing and Machine Learning techniques with an interactive and user-friendly interface.",
+    url: "/projects/Spam.png",
+    tech: ["Python", "Machine Learning"],
+  },
+  {
+    name: "TRACKIT-VCS",
+    desc: "TRACKIT - A version control system built with a strong focus on data structures and algorithms, enabling efficient tracking, management, and retrieval of code changes for seamless collaboration.",
+    url: "/projects/Version.png",
+    tech: ["DSA"],
+  },
+  {
+    name: "CourseMate",
+    desc: "A student-focused academic management platform designed to simplify course organization, study material sharing, task management, and collaboration with an intuitive and user-friendly interface.",
+    url: "/projects/coursemate.png",
+    tech: ["React.js", "Node.js"],
+  },
+  {
+    name: "AoI-Centric Scheduling Simulation",
+    desc: "A Computer Networks project that simulates and analyzes Age of Information (AoI)-centric scheduling algorithms for autonomous systems using Apollo DAG models, performance analysis, and scheduling visualizations.",
+    url: "/projects/AOI.png",
+    tech: ["Python"],
+  }  
+];
+
+export const projectsButton = [
+  "All",
+  "DSA",
+  "NodeJS",
+  "ReactJS",
+  "Python",
+  "Machine Learning",
+  // "NextJS",
+];
 
 //Navbar Data:
 import Home5LineIcon from "remixicon-react/Home5LineIcon";
@@ -237,7 +274,7 @@ import UserLineIcon from "remixicon-react/UserLineIcon";
 import HistoryLineIcon from "remixicon-react/HistoryLineIcon";
 import BriefcaseLineIcon from "remixicon-react/BriefcaseLineIcon";
 // import UserStarLineIcon from "remixicon-react/UserStarLineIcon";
-// import ProjectorLineIcon from "remixicon-react/ProjectorLineIcon";
+import ProjectorLineIcon from "remixicon-react/ProjectorLineIcon";
 // import PriceTag3LineIcon from "remixicon-react/PriceTag3LineIcon";
 import ContactsBook2LineIcon from "remixicon-react/ContactsBook2LineIcon";
 import QuestionAnswerLineIcon from "remixicon-react/QuestionAnswerLineIcon";
@@ -268,11 +305,11 @@ export const navbarData = [
   //   name: "Reviews",
   //   icon: <UserStarLineIcon />,
   // },
-  // {
-  //   id: "projects",
-  //   name: "Projects",
-  //   icon: <ProjectorLineIcon />,
-  // },
+  {
+    id: "projects",
+    name: "Projects",
+    icon: <ProjectorLineIcon />,
+  },
   // {
   //   id: 'pricing',
   //   name: 'Pricing',
@@ -296,17 +333,17 @@ export const questions = [
   {
     question: "What’s your story, Vishnu 👨‍💻? ",
     answer:
-      "I’m a BTech CSE student at COEP Pune, but my journey wasn’t a straight path. I initially pursued petrochemical engineering, but my passion for coding and technology led me to switch to computer science. During my diploma, I discovered my love for programming and never looked back.Now, I’m focused on AI, DSA, and web development, constantly learning and growing. Though I had to leave behind volleyball, a sport I cherished since childhood, I’ve found new excitement in solving complex problems and building innovative solutions. Passion over pressure—that’s my mantra! 🚀💡",
+      "I’m a BTech CSE student at COEP Pune, currently exploring AI, DSA, and full-stack development 💻🚀 From building modern web apps to solving complex coding problems, I love combining creativity with logic and continuously learning new technologies. Off-screen, volleyball keeps my energy high and mindset competitive 🏐🧠",
   },
   {
     question: "Why did you switch from Petrochemical to Computer Science? 🔄💡? ",
     answer:
-      "I initially chose petrochemical engineering based on external advice rather than my own passion. But as I studied, I realized that my heart wasn’t in it. At the same time, I started coding and enjoyed it far more than my core subjects. That’s when I knew I had to switch and pursue what truly excited me.",
+      "I switched from Petrochemical Engineering to Computer Science because I realized my real interest was in technology and problem-solving 💻🚀 During my diploma, I started exploring coding and became deeply interested in how software and modern technologies can create real-world impact. The more I learned about programming, AI, and development, the more motivated I became to build a career in tech. That passion inspired me to transition into Computer Science and pursue what genuinely excites me every day.",
   },
   {
-    question: "How did you get into COEP 🎓🏆? ",
+    question: "What’s the most exciting part about tech for you 🤖💡?",
     answer:
-      "When I decided to transition into computer science, I researched top colleges and set COEP as my first preference and VJTI as my second. When the provisional merit list was released, I was ranked 4th in all of Maharashtra! It was a proud moment for my family, but for me, it was bittersweet—I had to sacrifice my love for volleyball to focus on my career.",
+      "The fact that there’s always something new to learn. One day I’m solving DSA problems, the next day I’m building full-stack apps or exploring AI concepts. Technology keeps evolving, and that constant learning keeps me motivated 🔥💻",
   },
   {
     question: "What was the biggest challenge during your transition🤔?",
@@ -318,11 +355,11 @@ export const questions = [
     answer:
       "Absolutely! Volleyball was a huge part of my life, and stepping away from it was difficult. But I believe sacrifices are necessary to achieve greater goals. While I may not play competitively anymore, the sport has instilled in me discipline, teamwork, and perseverance—qualities that help me in my tech journey.",
   },
-  {
-    question: "What’s the biggest lesson you’ve learned from this experience🎯?",
-    answer:
-      "Always choose what truly interests you, not what others suggest. Your career is something you’ll work on for years, so it should be something you’re passionate about. If you follow external advice without considering your own interests, you might end up regretting it. 🤝📚",
-  },
+  // {
+  //   question: "What’s the biggest lesson you’ve learned from this experience🎯?",
+  //   answer:
+  //     "Always choose what truly interests you, not what others suggest. Your career is something you’ll work on for years, so it should be something you’re passionate about. If you follow external advice without considering your own interests, you might end up regretting it. 🤝📚",
+  // },
   {
     question: "Got any advice for young tech enthusiasts 💡?",
     answer:
